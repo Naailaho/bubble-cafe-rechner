@@ -1,22 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Bubble Cafe Rechner</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bubble Cafe Bestell-Rechner</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Cafe Bestell-Rechner</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="wrap">
@@ -27,26 +17,38 @@
 
     <table>
       <thead>
-        <tr><th>Gericht</th><th>Preis ($)</th><th>Anzahl</th></tr>
+        <tr>
+          <th>Gericht</th>
+          <th>Preis ($)</th>
+          <th>Anzahl</th>
+        </tr>
       </thead>
       <tbody>
         <tr><td>Pink Berry Bowl</td><td data-price="300">300</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Bubble Toastie</td><td data-price="250">250</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Fluffy Berry</td><td data-price="300">300</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Sweetheart Box</td><td data-price="500">500</td><td><input type="number" value="0" min="0"></td></tr>
+        <!-- NEU -->
+        <tr><td>Suki Cookie</td><td data-price="500">500</td><td><input type="number" value="0" min="0"></td></tr>
       </tbody>
     </table>
 
     <h2>Getränke</h2>
     <table>
       <thead>
-        <tr><th>Getränk</th><th>Preis ($)</th><th>Anzahl</th></tr>
+        <tr>
+          <th>Getränk</th>
+          <th>Preis ($)</th>
+          <th>Anzahl</th>
+        </tr>
       </thead>
       <tbody>
         <tr><td>Berrylicious</td><td data-price="180">180</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Pink Drink</td><td data-price="180">180</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Cozy Cocoa</td><td data-price="250">250</td><td><input type="number" value="0" min="0"></td></tr>
         <tr><td>Strawberry Matcha</td><td data-price="200">200</td><td><input type="number" value="0" min="0"></td></tr>
+        <!-- NEU -->
+        <tr><td>Choco Bliss Boba</td><td data-price="250">250</td><td><input type="number" value="0" min="0"></td></tr>
       </tbody>
     </table>
 
@@ -57,7 +59,10 @@
 
     <table>
       <tfoot>
-        <tr><td colspan="2">Gesamt</td><td id="grandTotal">0 $</td></tr>
+        <tr>
+          <td colspan="2">Gesamt</td>
+          <td id="grandTotal">0 $</td>
+        </tr>
       </tfoot>
     </table>
 
@@ -70,10 +75,6 @@
 </div>
 
 <script src="script.js"></script>
-</body>
-</html>
-    <script  src="./script.js"></script>
 
-  </body>
-  
+</body>
 </html>
